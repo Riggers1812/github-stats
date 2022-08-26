@@ -60,5 +60,4 @@ jobs:
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
-        git remote add origin https://github.com/riggers1812/github-stats.git
         git push --force origin master
